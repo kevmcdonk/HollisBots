@@ -10,9 +10,9 @@ using System.Linq;
 using System.Web;
 using System.Collections.Specialized;
 using System.Configuration;
-using TheHubBots.Dialogs;
+using HollisBots.Dialogs;
 
-namespace TheHubBots.Models
+namespace HollisBots.Models
 {
     public class HubModule : Module
     {

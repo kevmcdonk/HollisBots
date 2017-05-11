@@ -6,7 +6,7 @@ using Microsoft.Bot.Connector;
 using Microsoft.Bot.Builder.Luis.Models;
 using Microsoft.Bot.Builder.Internals.Fibers;
 
-namespace TheHubBots.Dialogs
+namespace HollisBots.Dialogs
 {
     [Serializable]
     public class RootHubNewsDialog : LuisDialog<object>

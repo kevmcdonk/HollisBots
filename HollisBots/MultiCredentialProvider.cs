@@ -14,7 +14,7 @@ using Microsoft.Bot.Connector;
 using System.Collections.Specialized;
 using System.Configuration;
 
-namespace TheHubBots
+namespace HollisBots
 {
     public class MultiCredentialProvider : ICredentialProvider
     {

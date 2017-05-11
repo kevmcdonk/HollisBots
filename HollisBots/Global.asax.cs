@@ -7,9 +7,9 @@ using System.Globalization;
 using System.Linq;
 using System.Reflection;
 using System.Web.Http;
-using TheHubBots.Models;
+using HollisBots.Models;
 
-namespace TheHubBots
+namespace HollisBots
 {
     public class WebApiApplication : System.Web.HttpApplication
     {

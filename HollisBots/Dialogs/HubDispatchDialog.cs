@@ -12,7 +12,7 @@ using System.Threading;
 using System.Threading.Tasks;
 using Microsoft.Bot.Builder.Scorables;
 
-namespace TheHubBots.Dialogs
+namespace HollisBots.Dialogs
 {
     /// <summary>
     /// The top-level natural language dialog for the alarm sample.

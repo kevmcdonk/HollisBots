@@ -11,7 +11,7 @@ using Microsoft.Bot.Builder.Dialogs.Internals;
 using Microsoft.Bot.Connector;
 using Microsoft.Bot.Builder.Internals.Fibers;
 
-namespace TheHubBots.Controllers
+namespace HollisBots.Controllers
 {
     [BotAuthentication(CredentialProviderType = typeof(MultiCredentialProvider))]
     public class MessagesController : ApiController

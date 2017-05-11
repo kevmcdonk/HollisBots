@@ -13,7 +13,7 @@ using System.Text;
 using System.Threading;
 
 
-namespace TheHubBots.Dialogs
+namespace HollisBots.Dialogs
 {
     [Serializable]
     public class RootDialog : LuisDialog<object>

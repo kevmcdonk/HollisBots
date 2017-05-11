@@ -2,7 +2,7 @@
 using Newtonsoft.Json;
 using Newtonsoft.Json.Serialization;
 
-namespace TheHubBots
+namespace HollisBots
 {
     public static class WebApiConfig
     {
