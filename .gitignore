@@ -245,3 +245,7 @@ ModelManifest.xml
 #Secrets
 web.secrets.config
 web.botlist.config
+
+#PublishProfile
+*.pubxml
+*.pubxml.user

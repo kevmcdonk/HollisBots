@@ -1,0 +1,143 @@
+{
+  "luis_schema_version": "2.0.0",
+  "versionId": "0.1",
+  "name": "The Hub Bot",
+  "desc": "",
+  "culture": "en-us",
+  "intents": [
+    {
+      "name": "Help"
+    },
+    {
+      "name": "None"
+    },
+    {
+      "name": "PerformTask"
+    },
+    {
+      "name": "SearchInformation"
+    },
+    {
+      "name": "SearchNews"
+    },
+    {
+      "name": "SearchPerson"
+    },
+    {
+      "name": "SearchWork"
+    }
+  ],
+  "entities": [
+    {
+      "name": "Department",
+      "children": [
+        "Finance",
+        "Operations"
+      ]
+    },
+    {
+      "name": "Tasks",
+      "children": [
+        "Time off",
+        "Timesheet",
+        "Leave"
+      ]
+    }
+  ],
+  "composites": [],
+  "closedLists": [],
+  "bing_entities": [
+    "email",
+    "url"
+  ],
+  "actions": [],
+  "model_features": [],
+  "regex_features": [],
+  "utterances": [
+    {
+      "text": "what news is there today?",
+      "intent": "SearchNews",
+      "entities": []
+    },
+    {
+      "text": "what is happening in technology?",
+      "intent": "SearchNews",
+      "entities": []
+    },
+    {
+      "text": "show me news from the last week",
+      "intent": "SearchNews",
+      "entities": []
+    },
+    {
+      "text": "book time off",
+      "intent": "PerformTask",
+      "entities": []
+    },
+    {
+      "text": "approve timesheet",
+      "intent": "PerformTask",
+      "entities": []
+    },
+    {
+      "text": "what is the policy for information security?",
+      "intent": "SearchInformation",
+      "entities": []
+    },
+    {
+      "text": "how do i book time off?",
+      "intent": "SearchInformation",
+      "entities": []
+    },
+    {
+      "text": "how do i book leave?",
+      "intent": "SearchInformation",
+      "entities": []
+    },
+    {
+      "text": "where can i find more about paternity leave?",
+      "intent": "SearchInformation",
+      "entities": []
+    },
+    {
+      "text": "kevin mcdonnell",
+      "intent": "SearchPerson",
+      "entities": []
+    },
+    {
+      "text": "who is the head of operations?",
+      "intent": "SearchPerson",
+      "entities": []
+    },
+    {
+      "text": "where is my latest presentation",
+      "intent": "SearchWork",
+      "entities": []
+    },
+    {
+      "text": "where is my latest document?",
+      "intent": "SearchWork",
+      "entities": []
+    },
+    {
+      "text": "i don't understand",
+      "intent": "Help",
+      "entities": []
+    },
+    {
+      "text": "what can i do?",
+      "intent": "Help",
+      "entities": []
+    },
+    {
+      "text": "help",
+      "intent": "Help",
+      "entities": []
+    },
+    {
+      "text": "what can i search for?",
+      "intent": "Help",
+      "entities": []
+    }
+  ]
+}
