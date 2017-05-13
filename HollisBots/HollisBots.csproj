@@ -123,6 +123,9 @@
     <Compile Include="Dialogs\HubPersonDialog.cs" />
     <Compile Include="Dialogs\HubInfoDialog.cs" />
     <Compile Include="Dialogs\HubNewsDialog.cs" />
+    <Compile Include="Dialogs\IInfoDialog.cs" />
+    <Compile Include="Dialogs\INewsDialog.cs" />
+    <Compile Include="Dialogs\IPersonDialog.cs" />
     <Compile Include="Dialogs\RootDialog.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -135,6 +138,7 @@
     <Content Include="packages.config" />
     <None Include="Properties\PublishProfiles\HollisBotsAPI - Web Deploy.pubxml" />
     <Content Include="The Hub Bot.json" />
+    <None Include="Properties\PublishProfiles\HollisBotsAPISite - Web Deploy.pubxml" />
     <None Include="web.luis.config">
       <SubType>Designer</SubType>
     </None>

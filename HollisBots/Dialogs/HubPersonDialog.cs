@@ -9,7 +9,7 @@ using Microsoft.Bot.Builder.Internals.Fibers;
 namespace HollisBots.Dialogs
 {
     [Serializable]
-    public class RootHubPersonDialog : LuisDialog<object>
+    public class RootHubPersonDialog : LuisDialog<object>, IPersonDialog
     {
         private readonly ILuisService luis;
 

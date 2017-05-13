@@ -27,9 +27,11 @@ namespace HollisBots.Models
                 builder.Register(c => new LuisModelAttribute(luisId, section[luisId])).AsSelf().AsImplementedInterfaces().SingleInstance();
             }
 
-            builder.RegisterType<RootHubInfoDialog>().As<IDialog<object>>().InstancePerDependency();
-            builder.RegisterType<RootHubNewsDialog>().As<IDialog<object>>().InstancePerDependency();
-            builder.RegisterType<RootHubPersonDialog>().As<IDialog<object>>().InstancePerDependency();
+            
+            builder.RegisterType<RootHubPersonDialog>().As<IPersonDialog>().InstancePerDependency();
+            builder.RegisterType<RootHubNewsDialog>().As<INewsDialog>().InstancePerDependency();
+            builder.RegisterType<RootDialog>().As<IDialog<object>>().InstancePerDependency();
+            builder.RegisterType<RootHubInfoDialog>().As<IInfoDialog>().InstancePerDependency();
 
             // register some singleton services
             builder.RegisterType<LuisService>().Keyed<ILuisService>(FiberModule.Key_DoNotSerialize).AsImplementedInterfaces().SingleInstance();

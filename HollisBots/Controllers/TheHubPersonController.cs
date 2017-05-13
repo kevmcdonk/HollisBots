@@ -14,7 +14,7 @@ using Microsoft.Bot.Builder.Dialogs;
 using Microsoft.Bot.Builder.Dialogs.Internals;
 using Microsoft.Bot.Connector;
 using Microsoft.Bot.Builder.Internals.Fibers;
-
+using HollisBots.Dialogs;
 
 namespace HollisBots.Controllers
 {
@@ -49,7 +49,7 @@ namespace HollisBots.Controllers
                 {
                     using (var scope = DialogModule.BeginLifetimeScope(this.scope, activity))
                     {
-                        await Conversation.SendAsync(activity, () => scope.Resolve<IDialog<object>>());
+                        await Conversation.SendAsync(activity, () => scope.Resolve<IPersonDialog>());
                     }
                 }
                 else
